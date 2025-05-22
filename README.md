@@ -41,7 +41,7 @@
 ## التثبيت والاستخدام
 
 ```bash
-git clone https://github.com/username/lords-mobile-resource-bank-bot.git
+git clone https://github.com/MR-SHANKAR7/bot-lords.git
 cd lords-mobile-resource-bank-bot
 pip install -r requirements.txt
 python bot.py
