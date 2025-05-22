@@ -38,7 +38,7 @@
 ---
 
 # Example Usage
-######
+
 welcome_message = """
 👋 مرحبًا بك في بوت بنك موارد Lords Mobile!
 
@@ -51,10 +51,14 @@ welcome_message = """
 💡 استمتع باللعب!
 """
 send_chat_response(welcome_message)
-########
+
+#تعديل رسالة خطأ عند أمر غير معروف
+
+
+
 unknown_command_msg = "❓ الأمر غير معروف. يرجى استخدام أحد الأوامر: /bal, /food <amount>, /stats, /tasks"
 send_chat_response(unknown_command_msg)
-#########
+#رسالة نجاح بعد إتمام مهمة يومية
 task_completed_msg = "✅ تم إتمام المهام اليومية بنجاح! تم تحديث الموارد في البنك."
 send_chat_response(task_completed_msg)
 
